@@ -2,9 +2,12 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 300;
-  background-color: #fff;
   color: #000;
   font-size: 18px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30px;
 }
 .container {
   max-width: 1200px;
