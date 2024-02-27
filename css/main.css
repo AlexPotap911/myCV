@@ -1,0 +1,157 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 3px;
+  margin-bottom: 15px;
+  border-bottom: 3px ridge #bdc3c7;
+}
+.header {
+  background-color: #bdc3c7;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+.main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #e7ebef;
+  padding: 20px;
+}
+.experience__inner {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  padding: 10px;
+}
+
+.position {
+  display: flex;
+  justify-content: flex-start;
+}
+.period {
+  text-align: center;
+  max-width: 120px;
+  flex-shrink: 0;
+  padding: 10px 10px;
+}
+.descr{
+  padding: 10px;
+}
+.descr__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.descr__sub-title {
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.descr__content {
+  line-height: 1.1;
+}
+.education__inner {
+  padding-left: 106px;
+}
+.education__name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.education__text {
+  margin-bottom: 20px;
+}
+.add-ihfo {
+  grid-column: 2/3;
+  grid-row: 1/-1;
+  font-size: 18px;
+  padding: 20px;
+  padding-top: 0;
+}
+.add-ihfo img {
+  display: block;
+  margin-left: auto;
+  
+  padding-bottom: 25px;
+}
+.contacts {
+  padding-bottom: 25px;
+}
+.contacts h6 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.contacts a:not(:last-child) {
+  margin-bottom: 10px;
+}
+.skills {
+  padding-bottom: 25px;
+}
+.skills li:not(:last-child) {
+  padding-bottom: 10px;
+}
+.lang {
+  padding-bottom: 25px;
+}
+.lang li:not(:last-child) {
+  padding-bottom: 20px;
+}
+
+.interests li:not(:last-child) {
+  padding-bottom: 10px;
+}
+.footer {
+  background-color: #bdc3c7;
+  padding: 20px;
+}
+.footer p {
+  font-size: 16px;
+  font-style: italic;
+}
+
+@media (max-width: 653px) {
+  .main{
+   display: flex;
+   flex-direction: column;
+   padding-left: 0;
+  }
+  .add-ihfo{
+    order: -1;
+    display: grid;
+  }
+  .contacts{
+    grid-row: 2/3;
+  }
+  .add-info__title{
+    grid-row: 1/2;
+  }
+  .experience{
+    padding-left: 20px;
+  }
+  .add-ihfo li{
+    padding-left: 20px;
+  }
+  .education{
+    padding-left: 20px;
+  }
+  .education__inner{
+    padding-left: 20px;
+  }
+}
