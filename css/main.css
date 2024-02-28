@@ -187,7 +187,8 @@ body {
 }
 @media (max-width: 594px){
 .add-ihfo{
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 .add-info__img{
   margin: 0 auto;
