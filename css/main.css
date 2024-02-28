@@ -153,7 +153,7 @@ body {
   .contacts {
     grid-row: 2/3;
   }
-  .skills-wraper {
+  .skills {
     grid-row: 2/3;
     grid-column: 1/3;
   }
